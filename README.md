@@ -8,7 +8,7 @@ This project is a beginner-friendly example and includes a single `notes` app th
 
 ## Project Overview 
 
-- Framework: Django 5.x (created by `django-admin startproject`) — settings show Django 5.2.8.
+- Framework: Django 5.2.8.
 - App: `notes` (contains models, views, URLs and templates).
 - Database: SQLite (default `db.sqlite3` provided).
 - Purpose: Demonstrate CRUD operations for a `Note` model with fields `title`, `content`, and `created_at`.
@@ -68,8 +68,6 @@ python -m venv .venv
 ```powershell
 pip install Django==5.2.8
 ```
-
-> Tip: If you want a `requirements.txt`, you can run `pip freeze > requirements.txt` after installing packages.
 
 3) Apply migrations (creates the SQLite database if not present) and create a superuser (optional):
 
