@@ -1,4 +1,4 @@
-# Notes App (Django CRUD Example)
+# Notes App (Django CRUDC)
 
 A minimal Django notes app that demonstrates a simple Create, Read, Update, Delete (CRUD) flow.
 
